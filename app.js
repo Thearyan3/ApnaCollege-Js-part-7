@@ -25,18 +25,18 @@
 
 // Miscellaneous Topics :-
 // (i). Arrow functions --> short way to write or define functions. 
-const sum = (a, b) => {
-    console.log(a+b);
-} 
+// const sum = (a, b) => {
+//     console.log(a+b);
+// } 
 
-const cube = n => {
-    return n*n*n;
-}
+// const cube = n => {
+//     return n*n*n;
+// }
 
-const pow = (a, b) => {
-    return a ** b;
-}
+// const pow = (a, b) => {
+//     return a ** b;
+// }
 
-const hello = () => {
-    console.log("hello World");
-}
+// const hello = () => {
+//     console.log("hello World");
+// }
