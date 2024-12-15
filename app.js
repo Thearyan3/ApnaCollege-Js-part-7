@@ -93,10 +93,10 @@
 // const square = (n) => n*n;
 // console.log(square(4)); 
 // Practice Qs 2. Write a function that prints "Hello World" 5 times at an interval of 2s each.
-let id = setInterval( () => {
-        console.log("Hello World");
-    }, 2000);
-    setTimeout( () => {
-        clearInterval(id);
-        console.log("clear Interval ran");
-    }, 10000);
+// let id = setInterval( () => {
+//         console.log("Hello World");
+//     }, 2000);
+//     setTimeout( () => {
+//         clearInterval(id);
+//         console.log("clear Interval ran");
+//     }, 10000);
