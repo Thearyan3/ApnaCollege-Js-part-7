@@ -40,3 +40,8 @@
 // const hello = () => {
 //     console.log("hello World");
 // }
+
+// (ii). Arrow funcitons [implicit return] - Ek aisa arrow function jha pe function sirf ek value return kre aur koi kaam vo na perform kre to vha pe function ko single line me define kiya ja skta h. 
+// const sum = (a, b) => a + b;
+// const cube = n => n * n *n ;
+// const mul = (a, b) => a * b;
