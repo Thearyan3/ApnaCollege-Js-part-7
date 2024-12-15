@@ -16,9 +16,27 @@
 
 // try&catch - The try statement allows you to define a block of code to be tested for errors while it is being executed.
 // The catch statement allows you to define a block of code to be executed, if an error occurs in try block. 
-try {
-    console.log(a);
-} catch(err) {
-    console.log("caught error .. a is not defined");
-    console.log(err);
+// try {
+//     console.log(a);
+// } catch(err) {
+//     console.log("caught error .. a is not defined");
+//     console.log(err);
+// }
+
+// Miscellaneous Topics :-
+// (i). Arrow functions --> short way to write or define functions. 
+const sum = (a, b) => {
+    console.log(a+b);
+} 
+
+const cube = n => {
+    return n*n*n;
+}
+
+const pow = (a, b) => {
+    return a ** b;
+}
+
+const hello = () => {
+    console.log("hello World");
 }
