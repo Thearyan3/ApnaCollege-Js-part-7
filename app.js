@@ -55,10 +55,26 @@
 // console.log("Talk to");
 
 // (iv). setInterval(function, timeout) - setInterval function bilkul setTimeout jaise kaam krta h lekin setInterval ek loop ki trah run krta h mtlb setInterval ke andar jo time given hoga vo use function ko utne hi time baad baar baar execute krta rhega. Aur isi loop ko rokne ke liye ek id hoti h jo hame clearInterval(id) ke andar likhkar execute krani hoti h. 
-let id = setInterval( () => {
-     console.log("Aryan");
-}, 2000);
+// let id = setInterval( () => {
+//      console.log("Aryan");
+// }, 2000);
 
-let id2 = setInterval( () => {
-    console.log("Hello There");
-}, 3000);
+// let id2 = setInterval( () => {
+//     console.log("Hello There");
+// }, 3000);
+
+
+// (v). this in arrow function - JavaScript's this is said to be One of the most trickiest this. Basically, arrow function ke liye this hota h jo object ka parent use call lga rha h or normal function ke liye this hota h jo object use call lga rhi h.
+const student = {
+    name: "Aryan", 
+    marks: 95,
+    prop: this,// global scope
+    getName: function() {
+        console.log(this);
+        return this.name;
+    },
+    getMarks: () => {
+        console.log(this);
+        return this.marks;// parent's scope -> window
+    },
+}
