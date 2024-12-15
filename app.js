@@ -7,6 +7,9 @@ const student = {
     acc: 93,
     getAvg() {
         let Avg = (this.math + this.eng + this.acc) / 3;
-        console.log(`${student.name} got avg marks of = ${this.Avg}`);
+        console.log(`${this.name} got avg marks of = ${Avg}`);
     }
+}
+function getAvg() {
+    console.log(this);
 }
