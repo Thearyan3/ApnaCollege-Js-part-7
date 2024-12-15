@@ -65,16 +65,26 @@
 
 
 // (v). this in arrow function - JavaScript's this is said to be One of the most trickiest this. Basically, arrow function ke liye this hota h jo object ka parent use call lga rha h or normal function ke liye this hota h jo object use call lga rhi h.
-const student = {
-    name: "Aryan", 
-    marks: 95,
-    prop: this,// global scope
-    getName: function() {
-        console.log(this);
-        return this.name;
-    },
-    getMarks: () => {
-        console.log(this);
-        return this.marks;// parent's scope -> window
-    },
-}
+// const student = {
+//     name: "Aryan", 
+//     marks: 95,
+//     prop: this,// global scope
+//     getName: function() {
+//         console.log(this);
+//         return this.name;
+//     },
+//     getMarks: () => {
+//         console.log(this);
+//         return this.marks;// parent's scope -> window
+//     },
+//     getInfo1: function() {
+//         setTimeout(() => {
+//             console.log(this);// student
+//         },2000);
+//     },
+//     getInfo2: function() {
+//         setTimeout(function() {
+//             console.log(this);// window
+//         },2000);
+//     },
+// }
