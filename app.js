@@ -53,3 +53,5 @@
 //     console.log("Aryan");
 // }, 1000);
 // console.log("Talk to");
+
+// (iv). setInterval(function, timeout) - setInterval function bilkul setTimeout jaise kaam krta h lekin setInterval ek loop ki trah run krta h mtlb setInterval ke andar jo time given hoga vo use function ko utne hi time baad baar baar execute krta rhega.
