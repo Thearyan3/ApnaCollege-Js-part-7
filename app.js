@@ -88,3 +88,14 @@
 //         },2000);
 //     },
 // }
+
+// Practice Qs 1. Write an arrow function that returns the square of a number n.
+// const square = (n) => n*n;
+// console.log(square(4)); 
+// Practice Qs 2. Write a function that prints "Hello World" 5 times at an interval of 2s each.
+const hello = () => {
+    setTimeout( () => {
+        console.log("Hello World");
+    }, 2000);
+}
+console.log(hello());
