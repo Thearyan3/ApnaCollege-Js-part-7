@@ -46,4 +46,4 @@ const object = {
         callback();
     },
 };
-object.method(callback,1,2);
+object.method(callback, 1, 2);
