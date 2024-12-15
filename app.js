@@ -45,3 +45,11 @@
 // const sum = (a, b) => a + b;
 // const cube = n => n * n *n ;
 // const mul = (a, b) => a * b;
+
+// (iii). setTimeout(function , timeout) - setTimeout ek inbuilt function h. Ye window object ka hi ek function h jaise Math object. In JavaScript, agar hame koi kaam, ek particular period of time ke baad hi perform krwana h apne code ke andar to ham setTimeout function ka use krte h.
+// For ex: hame kisi API se data lana h aur wo data thoda slow aa rha h aur hame ye chahiye ki itne time ke baad koi kaam hona h to ham setTimeout function ka use krke apne code me kuch kaam perform krwa skte h. 
+console.log("hello there!");
+setTimeout( () => {
+    console.log("Aryan");
+}, 3000);
+console.log("Talk to");
